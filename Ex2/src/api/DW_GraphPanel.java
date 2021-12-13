@@ -46,7 +46,6 @@ public class DW_GraphPanel extends JPanel {
 
     @Override
     public void paint(Graphics g) {
-//        g.clearRect(0,0,mWin_w,mWin_h);
         Iterator<NodeData> nodes = graph.nodeIter();
         graph.getmaxMin();
         while(nodes.hasNext()){
