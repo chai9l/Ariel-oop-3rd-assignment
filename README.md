@@ -144,6 +144,7 @@ cd path
 java -jar Ex2.jar G1.json
 ```
 ![bash](https://i.imgur.com/de6d3Ci.png)
+
 ***the example given is used upon the G1 graph file, you can pick either one of the existing graphs over the output folder.***
 
 # How to use :
