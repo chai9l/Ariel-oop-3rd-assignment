@@ -134,11 +134,7 @@ public class DW_Graph implements DirectedWeightedGraph{
         return edges.get(temp);
     }
 
-    /**
-     * adds a new node to the graph with the given node_data.
-     * Note: this method should run in O(1) time.
-     * @param n
-     */
+
     @Override
     public void addNode(NodeData n) {
         if (!this.graph.containsKey(n.getKey())) {
@@ -147,13 +143,7 @@ public class DW_Graph implements DirectedWeightedGraph{
         }
     }
 
-    /**
-     * Connects an edge with weight w between node src to node dest.
-     * * Note: this method should run in O(1) time.
-     * @param src - the source of the edge.
-     * @param dest - the destination of the edge.
-     * @param w - positive weight representing the cost (aka time, price, etc) between src-->dest.
-     */
+
     @Override
     public void connect(int src, int dest, double w) {
         if (!this.graph.containsKey(src) || !this.graph.containsKey(dest) || src == dest || w<=0)
@@ -260,11 +250,7 @@ public class DW_Graph implements DirectedWeightedGraph{
         this.mc = m;
     }
 
-    /**
-     * This method returns a pointer (shallow copy) for the
-     * collection representing all the edges in the graph.
-     * @return Collection<EdgeData>
-     */
+
     public Collection<EdgeData> getE(int node_id) {
         if(graph == null || edges.size() == 0) { return null; }
         myNode node = (myNode) getNode(node_id);
@@ -276,11 +262,7 @@ public class DW_Graph implements DirectedWeightedGraph{
         return ret;
     }
 
-    /**
-     * This method returns a pointer (shallow copy) for the
-     * collection representing all the nodes in the graph.
-     * @return Collection<NodeData>
-     */
+
     public Collection<NodeData> getV() {
         if(graph == null) { return null; }
         return graph.values();
