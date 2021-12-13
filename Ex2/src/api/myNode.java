@@ -91,29 +91,16 @@ public class myNode implements NodeData{
         this.location = (myLocation) p;
     }
 
-    /**
-     * Adding node as neighbor of other node
-     * @param t - the added neighbor
-     */
     public void addNi(myNode t) {
         if (!neighbors.contains(t)) {
             neighbors.add(t);
         }
     }
 
-    /**
-     * This method returns a pointer (shallow copy) for the
-     * collection representing all the node neighbors.
-     * @return Collection<node_data>
-     */
     public Collection<myNode> getNi() {
         return neighbors;
     }
 
-    /**
-     * Removing node from being a neighbor of other node
-     * @param t - the removed neighbor
-     */
     public void removeNi(myNode t) {
         if (!neighbors.contains(t)) {
             return;
@@ -121,9 +108,6 @@ public class myNode implements NodeData{
         neighbors.remove(t);
     }
 
-    /**
-     * Removing all nodes from being a neighbors of other node
-     */
     public void removeAllNi(){
         this.neighbors.clear();
     }
