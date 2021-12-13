@@ -130,6 +130,7 @@ pQue - PriorityQueue
 ![bash](https://i.imgur.com/tN6QjUS.png)
 
 ***Example :***
+
 ![bash](https://i.imgur.com/z6Wf8OS.png)
 
 # ***GUI Methods*** :
