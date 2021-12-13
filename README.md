@@ -121,18 +121,6 @@ pQue - PriorityQueue
 |load|Loads a graph from a given file name in JSON format|
 
 ## **DW_GraphGUI & DW_GraphPanel** 
-
-# How to use :
-**Pick what action you'd like to use on the graph opened :**
-
-![bash](https://i.imgur.com/mqtJ0BO.png)
-
-![bash](https://i.imgur.com/tN6QjUS.png)
-
-***Example :***
-
-![bash](https://i.imgur.com/z6Wf8OS.png)
-
 # ***GUI Methods*** :
 |Method|Description|
 |--|--|
@@ -157,3 +145,17 @@ java -jar Ex2.jar G1.json
 ```
 ![bash](https://i.imgur.com/de6d3Ci.png)
 ***the example given is used upon the G1 graph file, you can pick either one of the existing graphs over the output folder.***
+
+# How to use :
+**Pick what action you'd like to use on the graph opened :**
+
+![bash](https://i.imgur.com/mqtJ0BO.png)
+
+![bash](https://i.imgur.com/tN6QjUS.png)
+
+***Example :***
+
+![bash](https://i.imgur.com/z6Wf8OS.png)
+
+
+
