@@ -47,12 +47,6 @@ public class DW_GraphGUI extends JFrame implements ActionListener{
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setBackground(new Color(0xFF3D3A3A, true));
 
-//        JPanel panel = new JPanel();
-//        this.add(panel);
-//        panel.setBounds(900,100,100,100);
-//        JButton button = new JButton("Reset_Graph2");
-//        button.addActionListener(this);
-
         menuboya =  new JMenuBar();
 
 
