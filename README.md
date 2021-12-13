@@ -131,7 +131,7 @@ pQue - PriorityQueue
 |drawArrowLine| This function draws an arrow from node to node via given location using x,y,z|
 |paint|Paints the graph|
 
-## ** UML **
+## **UML **
 ![bash](https://i.imgur.com/DcaWh39.png)
 
 ## **How to run :** 
