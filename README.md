@@ -124,6 +124,7 @@ pQue - PriorityQueue
 
 # How to use :
 **Pick what action you'd like to use on the graph opened :**
+
 ![bash](https://i.imgur.com/mqtJ0BO.png)
 
 ![bash](https://i.imgur.com/tN6QjUS.png)
