@@ -1,4 +1,4 @@
-![enter image description here](https://online.stanford.edu/sites/default/files/styles/figure_default/public/2021-07/Machine-Learning-with-Graphs_XCS224w.jpg?itok=Jbv8BuhY)
+![](https://online.stanford.edu/sites/default/files/styles/figure_default/public/2021-07/Machine-Learning-with-Graphs_XCS224w.jpg?itok=Jbv8BuhY)
 
 **This project is the 2nd assignment given in the Object Oriented course, Ariel University.**
 **The project revolves around the implmentation of Directed Weighted graphs and contains the following:**
